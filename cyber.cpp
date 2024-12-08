@@ -117,7 +117,7 @@ string reverseShift(const string &shiftedText, const string &key) {
     return originalText;
 }
 
-//  apply transposition and display column-by-column output
+//  apply transposition and display columnbycolumn output
 string applyTransposition(const string &shiftedText) {
     int rows = 3;
     int cols = (shiftedText.length() + rows - 1) / rows;
